@@ -10,6 +10,8 @@ The features include:
 * Browse to Game Official Websites, Reviews, News, Screenshots and Cheats & Extras
 * A video game search that allows you to find the game you are looking for quickly
 
+The current Market listing is available [here](https://play.google.com/store/apps/details?id=com.forthegamer.android.encyclopedia).
+
 ## Concepts Learned
 * Basic Android Development
 * Using, Parsing and Displaying data from a Third Party API
