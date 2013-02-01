@@ -2,7 +2,7 @@
 
 ## Description
 This application is my first Android Application.  It used the GamesRadar API (now abandoned) to serve as a reference
-for all kind of video games. 
+for all kinds of video games. 
 The features include:
 * Up to the minute video game News Features
 * A video game Browser that allows you to navigate through video games past, present and future by Platform, Genre or Name with the ability to sort results
