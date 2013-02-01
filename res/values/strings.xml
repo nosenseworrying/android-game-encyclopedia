@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AndroidGameEncyclopedia!</string>
+    <string name="app_name">Game Encyclopedia</string>
+<string name="no_games">No Games found.</string>
+<string name="no_features">No Features found.</string>
+<string name="menu_for_options">Press \'Menu\' for more options</string>
+<string name="about_website">For more info or to donate toward the cause, please visit www.ForTheGamer.com</string>
+<string name="about_email">New in this version:\n- Fix for HTC Incredible when viewing News Features\n- Fix for About button disappearing when highlighted\n\n  Please send comments, questions, bug reports to info@forthegamer.com</string>
+<string name="about_version">Game Encyclopedia Version 0.3.0</string>
+<string name="about_radar">Game and News data is provided by www.GamesRadar.com.  However, this application is not affiliated with the site in any way.</string>
+</resources>

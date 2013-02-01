@@ -1,0 +1,9 @@
+<resources><color name="list_header">#0055FF</color>
+<color name="header_text">#FFFFFF</color>
+<color name="white">#FFFFFF</color>
+<color name="black">#000000</color>
+<color name="red">#FF0000</color>
+<color name="green">#00FF00</color>
+<color name="orange">#FF6633</color>
+<color name="transparent">#0000</color>
+</resources>

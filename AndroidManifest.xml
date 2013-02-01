@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.forthegamer.android.encyclopedia"
+      android:versionName="0.3.0" android:versionCode="5">
+    <application android:icon="@drawable/launcher_final" android:label="@string/app_name"  android:theme="@android:style/Theme.NoTitleBar">
+        <activity android:name=".AndroidGameEncyclopedia"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name=".GameBrowser" 
+				  android:configChanges="orientation|keyboardHidden"
+		/>
+		<activity android:name=".GameLoad" 
+				  android:configChanges="orientation|keyboardHidden"
+		/>
+		<activity android:name=".FeatureLoad" />
+		<activity android:name=".GameSearch" />
+		<activity android:name=".GameSearchResults" 
+				  android:configChanges="orientation|keyboardHidden"
+		/>
+		<activity android:name=".NewsFeatureList"
+				  android:configChanges="orientation|keyboardHidden"
+		/>
+		<activity android:name=".GameNewsList"
+				  android:configChanges="orientation|keyboardHidden"
+		/>		
+		<activity android:name=".About" />
+    </application>
+    <uses-sdk android:minSdkVersion="3" />
+	<uses-permission android:name="android.permission.INTERNET" />
+
+
+</manifest> 

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+<TextView android:id="@+id/txtHeader"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:background="@color/list_header"
+		android:textColor="@color/header_text"
+		android:textStyle="bold"
+		android:paddingLeft="3dip"
+		android:text="Search Games"/>
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:stretchColumns="1">
+	<TableRow>
+		<TextView
+		android:text="Platform:" 
+		android:gravity="right"
+		android:paddingTop="17dip"/>
+		<Spinner android:id="@+id/spPlatform"
+		android:drawSelectorOnTop="true"
+		android:paddingTop="5dip"/>
+	</TableRow>
+	<TableRow>
+		<TextView
+		android:text="Name:" 
+		android:gravity="right"
+		android:paddingTop="5dip"/>
+		<EditText android:id="@+id/txtName" 
+		android:singleLine="true"
+		android:scrollHorizontally="false"
+		android:maxLength="50"
+		android:paddingTop="5dip"/>
+	</TableRow>
+	<TableRow>
+		<TextView
+		android:layout_span="2"
+		android:layout_width="wrap_content"
+		android:gravity="center_horizontal"
+		android:paddingBottom="7dip"
+		android:text="Note - You must include at least 3 characters of the game's name" />
+	</TableRow>
+	<TableRow>
+		<Button android:id="@+id/btnGo"
+		android:enabled="false"
+		android:text="Search" />
+	</TableRow>
+</TableLayout>
+</LinearLayout>
